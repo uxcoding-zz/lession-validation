@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper-Body">
+        <div class="container">
+            <div class="row">
+                <div class="login-Bar">
+                    <h2 class="text-primary text-center">Login Form</h2>
+                    <form name="login-name" onsubmit="return" method="POST" action="https://www.google.com/">
+                        <div class="form-group">
+                            <label for="login_name">Name</label>
+                            <input type="text" name="input-name" id="login_name" class="form-control" placeholder=""
+                                aria-describedby="login_name_message" autocomplete="off">
+                            <small id="login_name_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="login_email">Email</label>
+                            <input type="email" name="input-email" id="login_email" class="form-control" placeholder=""
+                                aria-describedby="login_email_message" autocomplete="off">
+                            <small id="login_email_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="login_mobile">Mobile</label>
+                            <input type="tel" name="input-mobile" id="login_mobile" class="form-control" placeholder=""
+                                aria-describedby="login_mobile_message" autocomplete="off">
+                            <small id="login_mobile_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="login_name">Password</label>
+                            <input type="password" name="input-password" id="login_password" class="form-control"
+                                placeholder="" aria-describedby="login_password_message" autocomplete="off">
+                            <small id="login_password_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="login_name">Confirm password</label>
+                            <input type="password" name="input-confirm-password" id="login_confirm_password" class="form-control"
+                                placeholder="" aria-describedby="login_confirm_password_message" autocomplete="off">
+                            <small id="login_confirm_password_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label for="login_radio_first" class="form-check-label" style="margin-right: 2rem">
+                                    <input type="radio" class="form-check-input" name="input-radio" id="login_radio_first"
+                                        value="1.) Display">
+                                    1.) Display
+                                </label>
+                                <label for="login_radio_second" class="form-check-label" style="margin-right: 2rem">
+                                    <input type="radio" class="form-check-input" name="input-radio" id="login_radio_second"
+                                        value="2.) Display">
+                                    2.) Display
+                                </label>
+                                <label for="login_radio_three" class="form-check-label" style="margin-right: 2rem">
+                                    <input type="radio" class="form-check-input" name="input-radio" id="login_radio_three"
+                                        value="3.) Display">
+                                    3.) Display
+                                </label>
+                            </div>
+                            <small id="login_radio_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label for="login_checkbox_first" class="form-check-label" style="margin-right: 2rem">
+                                    <input id="login_checkbox_first" class="form-check-input" name="input-checkbox"
+                                        value="1.) Text" type="checkbox">1.) Text
+                                </label>
+                                <label for="login_checkbox_second" class="form-check-label" style="margin-right: 2rem">
+                                    <input id="login_checkbox_second" class="form-check-input" name="input-checkbox"
+                                        value="2.) Text" type="checkbox">2.) Text
+                                </label>
+                                <label for="login_checkbox_third" class="form-check-label" style="margin-right: 2rem">
+                                    <input id="login_checkbox_third" class="form-check-input" name="input-checkbox"
+                                        value="3.) Text" type="checkbox">3.) Text
+                                </label>
+                            </div>
+                            <small id="login-checkbox_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="login_select">Select List</label>
+                            <select id="login_select" class="custom-select">
+                                <option value="Selectlist" selected>Select</option>
+                                <option>1.) Text</option>
+                                <option>2.) Text</option>
+                                <option>3.) Text</option>
+                                <option>4.) Text</option>
+                            </select>
+                            <small id="login-select_message"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="input-name" value="lets start" id="login_submit_button" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>

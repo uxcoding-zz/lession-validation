@@ -1,0 +1,53 @@
+
+.wrapper-Body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+}
+.login-Bar{
+    margin: auto;
+    padding: 3.5rem 0 0 0;
+    width: 100%;
+    max-width: 430px;
+}
+.login-Bar small{
+    display: block;
+}
+.name-Box{
+    margin: 0;
+    padding: 2.5rem;
+    width: 100%;
+    display: flex;
+}
+.private-Bar dt{
+    padding: .6rem .5rem;    
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    color: #ffffff;    
+    background-color: #3b5998;
+}
+.personal-Bar{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.personal-Bar ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;  
+}
+.personal-Bar ul li{
+    display: inline-flex;
+    list-style: none;
+}
+.personal-Bar ul li a{
+    padding: .6rem 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;    
+    background-color: #3b5998;
+}
